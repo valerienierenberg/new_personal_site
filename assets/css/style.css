@@ -627,7 +627,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.endeavors .icon-box {
   padding: 20px 15px;
   position: relative;
   overflow: hidden;
@@ -639,7 +639,7 @@ section {
   z-index: 1;
 }
 
-.services .icon-box::before {
+.endeavors .icon-box::before {
   content: '';
   position: absolute;
   top: 0;
@@ -650,13 +650,13 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.endeavors .icon-box:hover::before {
   background: #d43076;
   height: 100%;
   border-radius: 0px;
 }
 
-.services .icon {
+.endeavors .icon {
   margin: 0 auto 30px auto;
   padding-top: 10px;
   display: inline-block;
@@ -668,42 +668,42 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.services .icon i {
+.endeavors .icon i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
 }
 
-.services .title {
+.endeavors .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.endeavors .title a {
   color: #111;
 }
 
-.services .description {
+.endeavors .description {
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.endeavors .icon-box:hover .title a, .endeavors .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon {
+.endeavors .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.endeavors .icon-box:hover .icon i {
   color: #d43076;
 }
 
 @media (max-width: 768px) {
-  .services .icon-box::before {
+  .endeavors .icon-box::before {
     bottom: 60%;
   }
 }
